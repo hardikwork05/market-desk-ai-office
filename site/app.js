@@ -377,6 +377,7 @@ function start3D() {
 
   const resize = () => {
     const w = stage.clientWidth, h = stage.clientHeight, dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (!w || !h) return;
     canvas.width = Math.round(w * dpr);
     canvas.height = Math.round(h * dpr);
     aspect = w / h;
@@ -446,6 +447,7 @@ function start3D() {
     const ease = reduce ? 1 : 1 - Math.exp(-dt * 2.4);
     Object.keys(goal).forEach((key) => {
       rig[key] += (goal[key] - rig[key]) * ease;
+      if (!isFinite(rig[key])) rig[key] = goal[key];
     });
     cam = camera(rig, aspect);
     // Slide the whole picture left when the side panel is open, so the cabin stays in view.
