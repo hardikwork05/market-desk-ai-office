@@ -1,0 +1,60 @@
+1
+00:00:02,200 --> 00:00:09,000
+Yeh hai aapka AI office. Har cabin mein ek AI staff member hai, jo aapki trading ka ek kaam sambhalta hai.
+
+2
+00:00:09,200 --> 00:00:16,000
+Kavya chief of staff hai. Saare desks ki report jodkar subah-shaam ek hi page ki briefing banati hai.
+
+3
+00:00:16,200 --> 00:00:23,000
+Aaj kya hua, kis desk ne kya dekha, aur kahan aapki OK chahiye, sab ek jagah mil jaata hai.
+
+4
+00:00:23,200 --> 00:00:30,000
+Arjun raat bhar ka market, results calendar aur aapki watchlist ki news padhta hai.
+
+5
+00:00:30,200 --> 00:00:37,000
+Subah 8:45 par ek minute ka brief aapke phone par aa jaata hai, aapke apne rules ke hisaab se.
+
+6
+00:00:37,200 --> 00:00:44,500
+Meera aapke trading group ke har idea ko note karti hai: kisne diya, kya tha aur kab aaya.
+
+7
+00:00:44,700 --> 00:00:52,000
+Har idea aapke rules se check hota hai. Hara matlab rules mein fit, laal matlab koi rule toot raha hai.
+
+8
+00:00:52,200 --> 00:00:59,500
+Aur score bhi rakhti hai: pichhle 30 din mein kiske ideas sach mein chale, aur kiske nahi.
+
+9
+00:00:59,700 --> 00:01:06,500
+Ira har trade broker se khud utha leti hai. Aapko journal mein kuch bhi type nahi karna.
+
+10
+00:01:06,700 --> 00:01:13,500
+Phir dikhati hai ki paisa kis setup se bana aur kahan gaya, group ke ideas samet.
+
+11
+00:01:13,700 --> 00:01:20,500
+Kabir din bhar aapki positions ko aapke hi banaye rules se milata rehta hai.
+
+12
+00:01:20,700 --> 00:01:27,500
+Loss limit, position size, margin: rule tootne se pehle hi WhatsApp par warning aa jaati hai.
+
+13
+00:01:27,700 --> 00:01:34,500
+Aapki OK ke bina kuch nahi badalta. Har trading decision aapka hi rehta hai.
+
+14
+00:01:34,700 --> 00:01:40,500
+Aage chalkar Tax, Backtest aur Research desk bhi khul sakte hain.
+
+15
+00:01:40,700 --> 00:01:48,000
+Yeh office tips nahi deta aur order nahi lagata. Yeh aapko aur aapke group ko apne hi plan par disciplined rakhta hai.
+
