@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="AI office demo for a trader: AI desks for the morning brief, trade journal and risk rules report to you.">
+<meta name="theme-color" content="#12372A">
+<title>Market Desk AI Office</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+:root { --ink: #12372A; --ink2: #2F6B55; --paper: #F7F6F0; --rule: #DDE5D8; --vest: #F2B33D; --text: #14241D; --muted: #5A6B62; --sky1: #F2F5EE; --sky2: #D9E2D6; }
+.demo, .tag.cur span { color: #CFE3D8; }
+.tag { box-shadow: 0 2px 0 rgba(18, 55, 42, 0.25); }
+.tag.soon:not(.cur) { border-top-color: #A8B8AC; background: #F1F4EF; }
+.photo { background: #E3EBE4; }
+</style>
+</head>
+<body>
+<div class="app" id="app">
+  <header class="bar">
+    <p class="brand"><b id="brandName">Market Desk</b> <span>AI Office</span></p>
+    <p class="demo">Demo with sample data</p>
+    <button class="btn vest" id="tourBtn" type="button">Play the tour</button>
+  </header>
+  <main class="work">
+    <section class="stage" id="stage" aria-label="Office floor">
+      <canvas id="scene" aria-hidden="true"></canvas>
+      <div class="labels" id="labels"></div>
+      <p class="hint" id="hint">Drag to look around. Tap a cabin to get its report.</p>
+      <p class="flat-note">The 3D view is not available on this device. Pick a desk below.</p>
+      <button class="btn ghost back" id="back" type="button" hidden>Whole office</button>
+      <nav class="roster" id="roster" aria-label="Desks"></nav>
+      <div class="caption" id="caption" hidden>
+        <p id="capText"></p>
+        <div class="cap-bar"><i id="capFill"></i></div>
+      </div>
+    </section>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </main>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
