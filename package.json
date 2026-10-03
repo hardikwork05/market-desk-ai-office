@@ -1,0 +1,12 @@
+{
+  "name": "market-desk-ai-office",
+  "private": true,
+  "description": "Concept demo: a virtual AI office for a stock-market trader",
+  "scripts": {
+    "start": "npx serve site -l 8767",
+    "walkthrough": "node tools/walk.js 0 2639"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

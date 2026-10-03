@@ -1,0 +1,8 @@
+node_modules/
+tools/frames/
+tools/wframes/
+tools/shots/
+voiceover/*.mp3
+voiceover/*.npy
+voiceover/*.wav
+*.mp4
