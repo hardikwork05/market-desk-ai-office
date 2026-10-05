@@ -4,9 +4,37 @@ A concept demo of a virtual AI office for a solo stock-market trader in India wh
 
 **Live demo:** https://market-desk-ai-office.vercel.app (add `?name=Your%20Name` to rename the office)
 
-![The trading floor with every cabin labelled](docs/overview.png)
+![The trading floor with every cabin labelled](docs/screenshots/01-overview.jpg)
 
 This is a demo with sample data. It gives no buy or sell calls and places no orders. It is not investment advice. Every trading decision stays with the trader.
+
+## A quick tour in pictures
+
+Every number, name and message in these screenshots is sample data.
+
+### 1. The whole floor
+
+![1. The whole floor](docs/screenshots/01-overview.jpg)
+
+Five lit cabins are working desks and the three dark ones are coming soon. The lounge on the left is the trading group. Every amber line on the floor leads back to the trader's own desk at the front. The floor plan in the corner jumps to any cabin.
+
+### 2. Kavya, chief of staff
+
+![2. Kavya, chief of staff](docs/screenshots/02-chief-of-staff.jpg)
+
+Every panel opens the same way: "Without Kavya / With Kavya", then what she does each day, then her written briefing for the day.
+
+### 3. Meera, the ideas desk
+
+![3. Meera, the ideas desk](docs/screenshots/03-ideas-desk.jpg)
+
+For a trader whose group shares ideas all day: 5 ideas from 4 members, 3 that fit his own rules, and a 61% hit rate for the group over 30 days.
+
+### 4. Kabir, the risk desk
+
+![4. Kabir, the risk desk](docs/screenshots/04-risk-desk.jpg)
+
+His own limits, watched all day: how much of the loss limit and margin is used, how many trades stayed inside the size rule, and any breach.
 
 ## What each bot does
 
